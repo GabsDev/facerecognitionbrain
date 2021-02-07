@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68eba8ae-c1d2-4370-b4a6-078bfaf8c7d8" name="Default Changelist" comment="FaceRecognition component">
-      <change afterPath="$PROJECT_DIR$/src/components/FaceRecognition/FaceRecognition.css" afterDir="false" />
+    <list default="true" id="68eba8ae-c1d2-4370-b4a6-078bfaf8c7d8" name="Default Changelist" comment="FaceDetentionBox component">
+      <change afterPath="$PROJECT_DIR$/assets/images/homepage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FaceRecognition/FaceRecognition.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FaceRecognition/FaceRecognition.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rank/Rank.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rank/Rank.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +45,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gavil\WebstormProjects\FrontEnd\facerecognitionbrain\assets\images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +60,8 @@
       <updated>1612576984404</updated>
       <workItem from="1612576985967" duration="832000" />
       <workItem from="1612650371063" duration="4745000" />
-      <workItem from="1612664869675" duration="15647000" />
+      <workItem from="1612664869675" duration="15945000" />
+      <workItem from="1612683338945" duration="185000" />
     </task>
     <task id="LOCAL-00001" summary="ImageLinkForm and Rank components">
       <created>1612671892731</created>
@@ -74,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612679165264</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="FaceDetentionBox component">
+      <created>1612682820422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612682820422</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +116,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ImageLinkForm and Rank components" />
     <MESSAGE value="FaceRecognition component" />
-    <option name="LAST_COMMIT_MESSAGE" value="FaceRecognition component" />
+    <MESSAGE value="FaceDetentionBox component" />
+    <option name="LAST_COMMIT_MESSAGE" value="FaceDetentionBox component" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
