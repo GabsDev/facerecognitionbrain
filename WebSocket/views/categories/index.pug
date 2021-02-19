@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        title Categorías
+    body
+        ul
+            each category in categories
+                li=category.title
+                - let myColor = category.color;
+                p(style={color: myColor})= category.color
+
+

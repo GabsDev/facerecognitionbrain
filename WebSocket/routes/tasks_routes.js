@@ -3,11 +3,16 @@ let TasksController = require("../controllers/tasks");
 
 let router = express.Router();
 
+router.route("/tasks").get(TasksController.index).post(TasksController.create);
+
+router.get("/tasks/new", TasksController.new);
+
+router.get("/tasks/:id/edit", TasksController.edit);
+
 router
-  .route("/tasks")
-  .get((req, res) => {
-    res.send("Hola Mundo");
-  })
-  .post(TasksController.create);
+  .route("/tasks/:id")
+  .get(TasksController.show)
+  .put(TasksController.update)
+  .delete(TasksController.destroy);
 
 module.exports = router;
